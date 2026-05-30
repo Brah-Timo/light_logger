@@ -11,6 +11,12 @@
 
 ---
 
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/ed858e4d-4e01-4d92-a571-6f957aef6c10" />
+
+
+
+
 ## The Problem
 
 Every Dart/Flutter logging library (logger, dart:developer, …) writes **plain UTF-8 text** to disk:
