@@ -1,0 +1,33 @@
+name: light_logger
+description: >
+  A high-performance binary logging package for Dart & Flutter that writes compressed logs instead of plain text, dramatically reducing file size while offering encryption, auto-rotation, real-time monitoring, and fast querying.
+
+version: 1.0.0
+homepage: https://github.com/your-org/light_logger
+repository: https://github.com/your-org/light_logger
+issue_tracker: https://github.com/your-org/light_logger/issues
+documentation: https://pub.dev/documentation/light_logger/latest/
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  meta: ^1.9.0
+  path: ^1.8.3
+  crypto: ^3.0.3            # SHA / HMAC for integrity checks
+  convert: ^3.1.1           # hex / base64 encoding utilities
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
+  benchmark_harness: ^2.2.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+  # web: limited — uses in-memory storage instead of file system
